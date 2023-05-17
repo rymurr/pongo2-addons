@@ -17,7 +17,7 @@ import (
 	"github.com/russross/blackfriday/v2"
 )
 
-func init() {
+func Initialize() {
 	rand.Seed(time.Now().UTC().UnixNano())
 
 	// Regulars
